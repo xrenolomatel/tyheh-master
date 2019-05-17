@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: 1
+  type_id: 1
+  user_id: 1
+  title: MyString
+  description: MyString
+  start_time: 2019-05-06 15:54:19
+  end_time: 2019-05-06 15:54:19
+
+two:
+  customer_id: 1
+  type_id: 1
+  user_id: 1
+  title: MyString
+  description: MyString
+  start_time: 2019-05-06 15:54:19
+  end_time: 2019-05-06 15:54:19

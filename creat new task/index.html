@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="h1">New task</div>
+      <form action="#">
+        <p>Customer:</p>
+        <select name="customer" id="customer">
+          <option value="Apple">Apple</option>
+          <option value="Microsoft">Microsoft</option>
+          <option value="Google">Google</option>
+        </select>
+        <br/>
+
+        <p class="type">Type:</p>
+        <select name="development" id="development">
+          <option value="Development">Development</option>
+          <option value="Organization">Organization</option>
+          <option value="Testing">Testing</option>
+        </select>
+        <br/>
+
+        <p class="title">Title:</p>
+        <span class="title-text"><input type="text" ></span>
+        <br/>
+
+        <p class="description">Description:</p>
+        <textarea name="description" cols="25" rows="10" class="textarea"></textarea>
+        <br/>
+
+        <p class="start-time">Start time:</p>
+        <select name="year" id="year">
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2019">2020</option>
+        </select>
+
+        <select name="monts" id="monts">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+
+        <div id="minets">
+          <input type="text" value="16"> <span>:</span>
+        </div>
+
+        <div id="seconds">
+          <input type="text" value="50">
+        </div>
+        <br />
+
+        <button class="button-launch">Launch</button>
+
+      </form>
+    </div>
+</body>
+</html>

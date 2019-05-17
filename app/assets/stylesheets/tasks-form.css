@@ -1,0 +1,44 @@
+.title {
+	margin-left: 20px;
+}
+
+td:last-child{
+	border-right: none;
+}
+
+tr:nth-child(odd) td{
+	border-right: 2px solid #fff;
+}
+
+tr:nth-child(even) td{
+	border-right: 2px solid #dee2e6;
+	border-bottom: 2px solid #dee2e6;
+}
+
+.table.table-striped{
+	margin-bottom: 0;
+}
+
+.table_title th {
+	border-right: 2px solid #dee2e6;
+	text-align: center;
+	vertical-align: middle!important;
+}
+
+tbody tr:nth-child(odd) th{
+	border-right: 2px solid #fff;
+}
+
+tbody tr:nth-child(even) th{
+	border-right: 2px solid #dee2e6;
+}
+
+.new-task{
+	padding: 15px;
+	cursor: pointer;
+}
+
+.new-task a:hover{
+	background: none;
+	text-decoration: none;
+}

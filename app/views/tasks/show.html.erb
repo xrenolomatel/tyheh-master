@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p id="customer">
+  <strong>Customer:</strong>
+  <%= @task.customer_id %>
+</p>
+<h2>hello</h2>
+<p>
+  <strong class="type">Type:</strong>
+  <%= @task.type_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @task.user_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @task.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @task.description %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @task.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @task.end_time %>
+</p>
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>
