@@ -29,6 +29,7 @@
           <td><%= task.start_time %></td>
           <td><%= task.end_time %></td>
           <td><%= Time.at(task.end_time - task.start_time).utc.strftime("%H:%M:%S") if task.end_time %></td>
+          <td><%= link_to "finish", finish_task_path(task), method: :put %></td>
           <!-- <td><%= link_to 'Show', task %></td> <td><%= link_to 'Edit', edit_task_path(task) %></td> <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td> -->
         </tr>
       <% end %>
@@ -39,7 +40,6 @@
 <span class="new-task">
   <%= link_to 'New Task', new_task_path %>
 </span>
-
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 

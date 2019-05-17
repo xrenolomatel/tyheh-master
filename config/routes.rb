@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :customers
   resources :task_types
+  
 
   resources :tasks do
     member do
