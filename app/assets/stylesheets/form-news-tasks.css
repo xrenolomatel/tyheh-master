@@ -407,7 +407,7 @@ th {
 /*WRAPPER---------------*/
 .wrapper {
   width: 410px;
-  height: 545px;
+  height: 585px;
   margin: 50px auto;
   padding: 40px;
   background: #d7d6d6;
@@ -432,6 +432,10 @@ th {
 .description-e label {
   display: inline-block;
   color: #000;
+}
+
+.description-e label{
+  vertical-align: top;
 }
 
 .start-time-e label {
@@ -464,15 +468,11 @@ th {
   margin-left: 67px;
 }
 
-.description-e input {
-  height: 150px;
-  margin-left: 17px;
+.description-e textarea {
+  margin-left: 18px;
   overflow-y: scroll;
   resize: none;
   outline: 0;
-  border-color: inherit!important;
-  border-radius: 0!important;
-  vertical-align: top;
 }
 
 #task_start_time_1i,
